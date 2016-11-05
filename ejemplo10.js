@@ -1,6 +1,13 @@
-var x=1;
-var _y=("1");
-var $z=(new Date());
-console.log (x);
-console.log (_y);
-console.log ($z);
+//operador de asignacion
+var y=1;
+var z=2;
+//
+y=y+(++z);
+console.log(y);
+console.log(z);
+//resta
+y=1;
+z=2;
+y=y-z--;
+console.log(y);
+console.log(z);
